@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE>FASES_OBESIDAD</TITLE>
+	</HEAD>
+	<BODY onload="fases_obesidad();">
+		<SCRIPT type="text/javascript">
+			//Este codigo ha sido generado por el modulo psexport 20180802-w32 de PSeInt.
+			//Es posible que el codigo generado no sea completamente correcto. Si encuentra
+			//errores por favor reportelos en el foro (http://pseint.sourceforge.net).
+
+			function fases_obesidad() {
+				var hijo = new Number();
+				var padre = new Number();
+				var madre = new Number();
+				document.write("Cuál es el peso del padre en kg: ",'<BR/>');
+				padre = Number(prompt());
+				madre = 2*padre+4;
+				hijo = (madre+padre)/5;
+				document.write(padre,'<BR/>');
+				document.write(madre,'<BR/>');
+				document.write(hijo,'<BR/>');
+				if (hijo>=0 && hijo<=20) {
+					document.write("uno",'<BR/>');
+				} else {
+					if (hijo>=21 && hijo<=40) {
+						document.write("dos",'<BR/>');
+					} else {
+						if (hijo>=41 && hijo<=80) {
+							document.write("tres",'<BR/>');
+						} else {
+							if (hijo>80) {
+								document.write("cuatro",'<BR/>');
+							}
+						}
+					}
+				}
+			}
+			
+		</SCRIPT>
+	</BODY>
+</HTML>
