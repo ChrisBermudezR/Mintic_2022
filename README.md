@@ -23,4 +23,4 @@ Así mismo, se tendrá en cuenta para la Ruta 1 y 2, la Directriz Presidencial N
 Fuente: [https://www.misiontic2022.gov.co/portal/](https://www.misiontic2022.gov.co/portal/)
 
 
-<a src="https://www.youtube.com/embed/gWLpCOFGEDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><img src="Video.png" aling="center"></img></a>
+<a href="https://www.youtube.com/embed/gWLpCOFGEDM" target="_blank" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><img src="Video.png" aling="center"></img></a>
