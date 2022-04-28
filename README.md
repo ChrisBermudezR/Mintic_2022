@@ -4,8 +4,6 @@
 
 En este repositorio pongo a disposición todos los códigos que se estarán creando en las clases del programa Misión TIC 2022.
 
-Preguntas frecuentes
-
 # ¿Qué es la Misión TIC 2022?
 
 **MISIÓN TIC 2022** es una estrategia de formación específica en programación orientada a jóvenes y ciudadanía en general, para ampliar las oportunidades en la construcción de trayectorias educativas y ocupacionales, garantizando el aprovechamiento de las oportunidades en el marco de las políticas de reactivación económica y economía naranja.

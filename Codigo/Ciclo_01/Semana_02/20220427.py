@@ -43,8 +43,12 @@ f(precio, descuento)
 
 #Ejercicio 3
 
-def f(SalarioBruto,y):
-  salarioFinal = SalarioBruto-()
+def f(SalarioBruto):
+  primario = SalarioBruto-(SalarioBruto*0.1)-(SalarioBruto*0.01)-(SalarioBruto*0.01)-(SalarioBruto*0.02)
+  return print(f'El salario básico final es de {primario-(primario*0.04)}')
+SalarioBruto=float(input("¿Cuál es el salario bruto del empleado: "))
+
+f(SalarioBruto)
 
 """4.	Haga un programa que dados dos numero diga cuál es el mayor"""
 
@@ -81,7 +85,7 @@ f(x,y,z)
 
 """6.	Haga un programa que calcule el promedio de notas para 3 notas.  Si el promedio es menor a tres aparezca un mensaje el estudiante perdió, si el promedio es mayor o igual a tres y menor que cuatro aparezca  un mensaje bien es estudiante gano, si el promedio es mayor o igual a cuatro el mensaje diga excelente promedio superior. """
 
-#Ejercicio 5
+#Ejercicio 6
 
 import statistics
 def f(x,y,z):
@@ -100,6 +104,7 @@ f(x,y,z)
 
 """7.	Haga un programa que dado un número, si este es mayor que 30 calcule el cubo, en caso contrario calcule el cuadrado."""
 
+#Ejercicio 7
 def f(x):
   if x >30:
     return x**3
@@ -110,5 +115,14 @@ f(x)
 
 """8.	Haga un programa que calcule el salario neto de un empleado sabiendo que el salario básico de él se calcula de acuerdo a número de horas trabajadas y la hora tiene un valor especifico, además si ese salario es menor que dos salarios mínimos legales vigente (smlv) se le paga un subsidio de transporte equivalente a 55000.  (el smlv=565000)."""
 
-def f(basico, horas):
-  if
+#Ejercicio 8
+
+def f(valorHora, horas):
+  basico=valorHora*horas
+  if basico < 2*565000:
+    return print(f'El sueldo básico del empleado será de {basico} y del sueldo neto será de {basico + 55000} con subsidio de transporte.')
+  else:
+    return print(f'el sueldo neto del empleado será de {basico} sin subsidio de transporte.')
+valorHora=float(input("¿Cuál es el valor de la hora?: "))
+horas=float(input("¿Cuántas horas trabajó el empleado?: "))
+f(valorHora, horas)
