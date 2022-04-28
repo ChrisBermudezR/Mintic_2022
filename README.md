@@ -17,3 +17,6 @@ La ruta de aprendizaje 2 va dirigida a los colombianos mayores de 15 años que c
 Para las Rutas 1 y 2 MinTIC acatando la directriz impartida a través de la Directiva Presidencial No. 11 del 13 de octubre de 2020, promoverá la participación de las mujeres en el programa "Misión TIC 2022".
 
 Así mismo, se tendrá en cuenta para la Ruta 1 y 2, la Directriz Presidencial No. 10 del 8 de octubre de 2020, con el fin de promover los beneficios del programa de Misión TIC 2022 a los veteranos de la fuerza pública y sus beneficiarios.
+
+
+Fuente: [https://www.misiontic2022.gov.co/portal/](https://www.misiontic2022.gov.co/portal/)
