@@ -1,3 +1,5 @@
+
+<img src="channels-642_misiontic_logo.png"></img>
 # Mintic_2022
 
 En este repositorio pongo a disposición todos los códigos que se estarán creando en las clases del programa Misión TIC 2022.
