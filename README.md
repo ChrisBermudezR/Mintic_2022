@@ -18,5 +18,13 @@ Para las Rutas 1 y 2 MinTIC acatando la directriz impartida a través de la Dire
 
 Así mismo, se tendrá en cuenta para la Ruta 1 y 2, la Directriz Presidencial No. 10 del 8 de octubre de 2020, con el fin de promover los beneficios del programa de Misión TIC 2022 a los veteranos de la fuerza pública y sus beneficiarios.
 
+<video controls width="250">
+
+    <source src="https://www.youtube.com/watch?v=gWLpCOFGEDM"
+            type="video/webm">
+
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
 
 Fuente: [https://www.misiontic2022.gov.co/portal/](https://www.misiontic2022.gov.co/portal/)
