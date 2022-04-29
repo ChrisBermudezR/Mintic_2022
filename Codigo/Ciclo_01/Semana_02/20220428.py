@@ -139,12 +139,21 @@ f(valorHora, horas)
 
 #Subido por Carlos Mario Vargas Penagos
 
-def neto(s,h):
-  neto=(s*h)
-  if neto>565000:
-    print(f'El salario neto del empleado es: ${neto}')
-  else:
-    print(f'El salario neto del empleado es: ${neto+55000}, incluido el subsidio de transporte')
-s=int(input("Ingrese el pago por hora: "))
-h=int(input("Ingrese el numero de horas trabajadas: "))
-neto(s,h)
+def metodo_pago(p,v):   
+    
+  if p==1:
+    v1= v-((v*30)/100)
+    return (print(f'el valor a pagar es: {v1}'))
+  elif p==(2):
+    v2= v-((v*15)/100)
+    return  (print(f'el valor a pagar es: {v2}'))
+  elif p==(3):
+    v3= v-((v*20)/100)
+    return (print(f'el valor a pagar es: {v3}'))
+  else :
+    return print('no es un valor valido¡¡')
+
+v=int(input('ingrese el valor del computador: '))
+p=int(input('Ingrese metodo de pago: \n si es efectivo digite 1 \n Tarjeta de Credito digite 2 \n Tarjeta Debito digite 3'))
+
+metodo_pago(p,v)
