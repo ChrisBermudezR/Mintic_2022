@@ -24,6 +24,7 @@ valor=float(input("Digite el precio del computador: "))
 f(valor, pago)
 
 # Algoritmo propuesto por Cindy Daniela Moreno Riveros
+
 def f(v,p):
   ef= (v*70//100)
   cre= v*85//100
@@ -58,10 +59,10 @@ def metodo_pago(p,v):
     v3= v-((v*20)/100)
     return (print(f'el valor a pagar es: {v3}'))
   else :
-    return print('no es un valor valido¡¡')
+    return print('no es un valor valido')
 
 v=int(input('ingrese el valor del computador: '))
-p=int(input('Ingrese metodo de pago: \n si es efectivo digite 1 \n Tarjeta de Credito digite 2 \n Tarjeta De
+p=int(input('Ingrese metodo de pago: \n si es efectivo digite 1 \n Tarjeta de Credito digite 2 \n Tarjeta De'))
 
 """Alternativa al anterior propuesta por Cindy Daniela Moreno Riveros"""
 
