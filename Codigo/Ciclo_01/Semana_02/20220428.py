@@ -43,7 +43,6 @@ v=float(input("Ingrese el valor del computador:"))
 p=str(input("Ingrese la forma de pago:"))
 f(v,p)
 
-"""subido por Carlos Mario Gutiérrez Montoya"""
 
 #subido por Carlos Mario Gutiérrez Montoya
 
@@ -64,7 +63,7 @@ def metodo_pago(p,v):
 v=int(input('ingrese el valor del computador: '))
 p=int(input('Ingrese metodo de pago: \n si es efectivo digite 1 \n Tarjeta de Credito digite 2 \n Tarjeta De'))
 
-"""Alternativa al anterior propuesta por Cindy Daniela Moreno Riveros"""
+
 
 #Alternativa al anterior propuesta por Cindy Daniela Moreno Riveros
 def f(v,p):
@@ -102,7 +101,7 @@ y=float(input("Ingrese otro número:"))
 z=float(input("Ingrese el último número:"))
 f(x,y,z)
 
-"""Alternativa propuesta por Claudia Liliana Medina Tovar"""
+
 
 #Alternativa propuesta por Claudia Liliana Medina Tovar
 
@@ -146,7 +145,7 @@ valorHora=float(input("¿Cuál es el valor de la hora?: "))
 horas=float(input("¿Cuántas horas trabajó el empleado?: "))
 f(valorHora, horas)
 
-"""Subido por Carlos Mario Vargas Penagos"""
+
 
 #Subido por Carlos Mario Vargas Penagos
 
