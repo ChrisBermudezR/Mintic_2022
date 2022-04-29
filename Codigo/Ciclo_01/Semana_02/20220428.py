@@ -167,3 +167,5 @@ v=int(input('ingrese el valor del computador: '))
 p=int(input('Ingrese metodo de pago: \n si es efectivo digite 1 \n Tarjeta de Credito digite 2 \n Tarjeta Debito digite 3'))
 
 metodo_pago(p,v)
+
+#Algunos aporte no se pudieron guardar
