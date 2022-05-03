@@ -34,4 +34,4 @@ Para *Var* = *inicio* hasta *final* Paso *Valor*.
     Cuerpo del ciclo
 Fin_Para
 
-Esta estructura se puede entender como: * *Var* representa una variable que va a tomar valores iniciando en *inicio* y finalizando en *final* avanzando con un Paso de *Valor* *.
+Esta estructura se puede entender como: **Var* representa una variable que va a tomar valores iniciando en *inicio* y finalizando en *final* avanzando con un Paso de *Valor**.
