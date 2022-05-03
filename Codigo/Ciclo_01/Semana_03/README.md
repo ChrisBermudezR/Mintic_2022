@@ -18,14 +18,16 @@ Fin_Mientras
 Esta estructura se puede entender como: *Mientras se cumpla con la condición verdadera, entonces se ejecutará el cuerpo del ciclo*.
 
 
-´´´json
+
+```json
 #Estructura de código del ciclo while
 
 n=0
 while i < 10
     print(i)
     i = i + 1
-´´´
+```
+
 * Ciclo *Para* que en lenguaje de Python se escribe *for*:
 
 Estructura:
