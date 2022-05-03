@@ -4,7 +4,7 @@ En esta semana se trataron las estructuras cíclicas.
 
 Las estructuras cíclicas nos permiten repetir o iterar un conjunto de instrucciones.
 
-Existen tres tipos de ciclos:
+Existen dos tipos de ciclos en python:
 
 * Ciclo *Mientras* que en lenguaje de Python se escribe *while*:
 
