@@ -35,3 +35,10 @@ Para *Var* = *inicio* hasta *final* Paso *Valor*.
 Fin_Para
 
 Esta estructura se puede entender como: **Var* representa una variable que va a tomar valores iniciando en *inicio* y finalizando en *final* avanzando con un Paso de *Valor**.
+
+```json
+
+nums = [4, 78, 9, 84]
+for n in nums:
+    print(n)
+``` 
