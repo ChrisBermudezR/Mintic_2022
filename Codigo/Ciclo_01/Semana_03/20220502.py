@@ -16,7 +16,7 @@ Original file is located at
 
 **Palabras reservadas para "Mientras" es while**
 
-
+El ciclo while nos dá una alternativa de ejecución mientras se cumpla la condición.
 
 ```
 #Ejemplo de estructura del ciclo "while"
@@ -35,3 +35,71 @@ i = 0
 while i < 10:
   print(i)
   i = i + 1
+
+#Imprimir números impares
+i = 1
+
+while i <= 20:
+  print(i)
+  i = i + 2
+
+#Imprimir los números del 1 al 9 y además saber la sumatoria
+i = 0
+suma = 0
+while i <=9:
+    print(i)
+    suma = suma + i
+    i = i + 1
+
+
+print(suma)
+
+"""# Problemas en clase
+## Problema 1
+
+
+
+"""
+
+numero = int(input("Escriba un número positivo: "))
+while numero < 0:
+    print("¡Ha escrito un número negativo! Inténtelo de nuevo")
+    numero = int(input("Escriba un número positivo: "))
+print("Gracias por su colaboración")
+
+"""## Problema 2 
+
+ Tabla de Multiplicar del 3 del 0 al 10
+"""
+
+i = 0
+while i <=10:
+  resultado = 3 * i
+  i = i + 1
+  print('3 x', i-1, '=', resultado)
+
+"""## Problema 3
+
+Imprimir cinco veces la palabra Python
+"""
+
+imp = 1
+
+while imp <= 5:
+  print("python")
+  imp = imp + 1
+
+"""## Imprimir los múltiplos de tres comprendidos entre tres y 15."""
+
+i = 1
+while i <= 15:
+  multiplos = 3 * i
+  i = i + 1
+  if multiplos >= 3 and multiplos <= 15:
+    print(multiplos)
+
+"""# Tarea
+
+Imprimir la tabla de multiplicar del 3 al 7
+"""
+
