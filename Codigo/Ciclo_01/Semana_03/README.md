@@ -20,8 +20,6 @@ Esta estructura se puede entender como: *Mientras se cumpla con la condición ve
 
 
 ```json
-#Estructura de código del ciclo while
-
 n=0
 while i < 10
     print(i)
