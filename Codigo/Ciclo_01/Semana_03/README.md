@@ -1,4 +1,4 @@
-# Arreglos de datos <i class="fab fa-python"></i>
+# Arreglos de datos :snake:
 
 ## Listas
 

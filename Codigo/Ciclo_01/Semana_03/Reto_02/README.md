@@ -1,9 +1,9 @@
-# Army Force Firestorm  :gun:  :rage2:
+# Army Force Firestorm    :rage2:
 
 Army Force Firestorm es un videojuego, este  Incluye una modalidad denominada Pixel Gun Apocalypse, en la que los usuarios se asignan aleatoriamente a uno de dos equipos y estos deben combatir a todos los del otro equipo hasta que se termina el tiempo asignado. 
 
 Usted se está postulando para trabajar para Army Force Firestorm y en la entrevista le piden que desarrolle una característica que consiste en lo siguiente. 
-Considere dos equipos: el clan Vampiric Ghosts y el clan Frenzy Shooters. Solamente un jugador de determinado equipo se enfrenta contra cualquier otro jugador del equipo contrario. Sin embargo, todas las armas están desalineadas, y lo único que se puede hacer es disparar hacia arriba esperando contar con suerte para infligir daño sobre el rival. 
+Considere dos equipos: el clan Vampiric Ghosts :ghost: y el clan Frenzy Shooters :gun:. Solamente un jugador de determinado equipo se enfrenta contra cualquier otro jugador del equipo contrario. Sin embargo, todas las armas están desalineadas, y lo único que se puede hacer es disparar hacia arriba esperando contar con suerte para infligir daño sobre el rival. 
 
 Cada tipo de arma se va a representar con uno de los siguientes caracteres simétricos: 
   .
