@@ -4,7 +4,7 @@
 
 Una lista en Python es una estructura de datos formada por una secuencia ordenada de objetos. Los elementos de una lista pueden accederse mediante su índice, siendo 0 el índice del primer elemento. 
 
-```json
+```python
 nombres=["Juan", "Pedro", "Maria", "Duverli", "Bryan", "Esniver", "Usnavy", "Dualinquer"]
 print(nombres)
 print(nombres[0])
@@ -13,7 +13,7 @@ print(nombres[0])
 ## Función len() en una lista
 La función len() devuelve la longitud de la lista (su cantidad de elementos).
 
-```json
+```python
 
 list1=["juan","pedro","cesar","augusto"]
 len(list1)
@@ -22,7 +22,7 @@ len(list1)
 
 Se concatenan las listas usando el símbolo +
 
-```json
+```python
 nombres=["Juan", "Pedro", "Maria", "Duverli", "Bryan", "Esniver", "Usnavy", "Dualinquer"]
 apellidos=["Birbiquí", "Sampues", "Chuchimí", "Caderín", "Pasto", "Pernir", "Adujú", "Bermí"]
 concatenada_Nombres_Apellidos= nombres + apellidos
@@ -36,7 +36,7 @@ print(concatenada_Nombres_Apellidos)
 
 Se puede agregar un elemento nuevo a una lista con el símbolo + y agregando el nuevo elemneto en [ ] o con *.append* o con *.insert*. Este último comando permite insertar en cierta posición
 
-```json
+```python
 lista2=[3, 4, 5, 6, 7, 8, 9, 10 ,11, 12]
 #Agregar el número 13 sin volver a hacer la lista
 
@@ -105,7 +105,7 @@ Esta estructura se puede entender como: *Mientras se cumpla con la condición ve
 
 
 
-```json
+```python
 n=0
 while i < 10
     print(i)
@@ -124,7 +124,7 @@ Fin_Para
 
 Esta estructura se puede entender como: **Var* representa una variable que va a tomar valores iniciando en *inicio* y finalizando en *final* avanzando con un Paso de *Valor**.
 
-```json
+```python
 
 nums = [4, 78, 9, 84]
 for n in nums:
