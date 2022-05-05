@@ -54,7 +54,33 @@ print(lista2)
 
 ```
 
+### Comandos para listas (Buscar)
 
+append
+insert
+remove
+reverse
+sort
+pop
+extend
+count
+index
+clear
+
+
+### Función *range()* :zap:
+
+La función *range()* permite medir varios parametros para por ejemplo imprimir varios elementos.
+
+```python
+    for i in range(5):
+        print(i, end=", ") # prints: 0, 1, 2, 3, 4, 
+```
+
+```python
+    for i in range(-1, 5):
+        print(i, end=", ")
+```
 
 # Estructuras cíclicas
 
