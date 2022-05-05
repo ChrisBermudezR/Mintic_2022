@@ -41,3 +41,13 @@ WWX.-.+M-M||+..+XM|XM
 Salida
 
 FFFFFFFFFFFFFFFFFFFFF
+
+
+# Respuesta al reto
+
+
+```python
+
+```
+
+
