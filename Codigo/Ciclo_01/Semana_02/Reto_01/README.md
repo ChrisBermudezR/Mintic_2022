@@ -23,7 +23,7 @@ else:
 ```
 
 
-
+```
 Algoritmo Fases_Obesidad
 	Definir hijo Como Real
 	Definir padre Como Entero
@@ -49,3 +49,4 @@ Algoritmo Fases_Obesidad
 		FinSi
 	FinSi
 FinAlgoritmo
+``
