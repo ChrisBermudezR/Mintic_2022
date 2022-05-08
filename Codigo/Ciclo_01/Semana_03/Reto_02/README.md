@@ -29,7 +29,10 @@ Cada tipo de arma se va a representar con uno de los siguientes caracteres simé
 Cada equipo escoge sus posibles armas con las que se atacará al equipo rival. El reloj del juego despliega el arma que sí va a tener efecto contra el otro en cada momento del juego. Si algún arma usada por los clanes atina exactamente con la que representa el reloj del juego, se anota un punto a dicho equipo y se debe informar el progreso de la puntuación. 
 
 Para representar el estado de la partida en cada momento se usa la siguiente convención: si el clan Vampiric Ghosts va ganando, se va a mostrar un 'V', si van empatados un '≈' (ASCII 247 en UTF-8), y si va ganando el Frenzy Shooters, se muestra un 'F'.
-Desarrolle un programa que permita recibir las letras que representan las armas elegidas por cada clan, que reciba la información de las vulnerabilidades a las armas dadas por el reloj del juego, y que imprima en pantalla el estado del juego en cada momento del tiempo. 
+
+**Desarrolle un programa que permita recibir las letras que representan las armas elegidas por cada clan, que reciba la información de las vulnerabilidades a las armas dadas por el reloj del juego, y que imprima en pantalla el estado del juego en cada momento del tiempo**. 
+
+:ghost: vs :gun:.
 
 +XMY*|
 
@@ -42,38 +45,74 @@ Salida
 
 FFFFFFFFFFFFFFFFFFFFF
 
+Entradas
+
++Y.X-|
+
+WMT*|-
+
+|*Y+-*|-|Y-X|+|YM-*T+-X-**W-XY
+
+
+Salida
+
+≈F≈VV≈≈≈≈VVVVVVVVVVVVVVVVV≈≈VV
+
+ 
+
+Entradas
+
+MX.+T
+
++TX-W
+
+M-+.|M*++*Y-W+|M-|YXW.
+
+
+Salida
+
+V≈≈VVVVVVVVV≈≈≈V≈≈≈≈F≈
+
+ 
+
+Entradas
+
+*W+|.
+
+-+TXY
+
+XW*|M+T*YXW+X*.+MW*|
+
+
+Salida
+
+F≈VVVVVVV≈VV≈VVVVVVV
 
 # Respuesta al reto
 
 
 ```python
-#Leer datos de juego, Strings
-#vmp -> Armas clan Vampiric Ghosts
-#frn -> Armas clan Frenzy Shooters
-#clk -> Reloj de juego
-vmp=input()   
-frn=input()
-clk=input()
-# Convierte las cadenas leídas en listas
-vmpArm=list(vmp)
-frnArm=list(frn)
-clkSec=list(clk)
+VG=str(input("Inserta el arma del equipo Vampiric Ghosts: "))   
+FS=str(input("Inserta el arma del Frenzy Shooters: "))
+reloj =str(input("El juez decide que la mejor arma es: "))
+
+VG_Armas=list(VG)
+FS_Armas=list(FS)
+reloj_Set=list(reloj)
 #Inicializa acumuladores de puntaje para cada equipo
-frnpnt=0
-vmppnt=0
-for i in clkSec:
-    #Compara el valor de arma indicado por el reloj con las armas del equipo Frenzy
-    #Si coincide el arma del reloj con alguna de las elegidas por el equipo acumula puntaje
-    for j in frnArm:
-        if(i==j):
-            frnpnt=frnpnt+1
-#Compara puntajes acumulados y entrega el resultado segun condiciones del reto
-    if(frnpnt==vmppnt):
+Puntos_VG=0
+Puntos_FS=0
+
+for i in reloj_Set:
+    if(i in FS_Armas):
+          Puntos_FS += 1
+    if(i in VG_Armas):
+          Puntos_VG += 1
+    if(Puntos_VG>Puntos_FS):
+        print("V",end="")
+    elif (Puntos_FS>Puntos_VG):
+        print("F",end="")
+    else:
         print("≈",end="")
-    if(frnpnt>vmppnt):
-            print("F",end="")
-    if(vmppnt>frnpnt):
-            print("V",end="")
+
 ```
-
-
