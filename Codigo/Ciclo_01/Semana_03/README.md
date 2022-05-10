@@ -1,24 +1,51 @@
-# Arreglos de datos :snake:
+# Arreglos de datos en :snake:
 
 ## Listas
 
 Una lista en Python es una estructura de datos formada por una secuencia ordenada de objetos. Los elementos de una lista pueden accederse mediante su índice, siendo 0 el índice del primer elemento. 
 
+Las características de una lista en python es que los objetos están rodeados de corchetes [ ] y están separados por comas.
+
 ```python
 nombres=["Juan", "Pedro", "Maria", "Duverli", "Bryan", "Esniver", "Usnavy", "Dualinquer"]
 print(nombres)
+>['Juan', 'Pedro', 'Maria', 'Duverli', 'Bryan', 'Esniver', 'Usnavy', 'Dualinquer']
 print(nombres[0])
+>Juan 
 ```
+Las listas pueden contener diferentes tipos de datos como números ó cadenas de texto.
 
-## Función len() en una lista
+Se pueden crear listas vacias a partir de asignarle a un objeto un [ ] sin ningún valor dentro.
+```python
+listaVacia=[]
+print(listaVacia)
+>[]
+```
+### Operaciones de secuenciación en las listas.
+
+Las listas en :snake: son tipos de datos secuenciales, similares a las cadenas de texto y estas se puede gestionar a través de operadores de secuenciacón. 
+
+Los operadores de secuenciación permiten conocer el orden, largo o el contenido en cierta posición de un objeto. También permiten concatenar valores o añadir valores en ciertas posiciones. 
+
+|Operador|Código de muestra|Valor retornado|
+|--|--|--|
+|Tamaño|```len(nombre)```|```>8```|
+|Indexación|```nombres[0]```|```>Juan```|
+|Segmentación|```nombres[1:3]```|```>['Pedro', 'Maria', 'Duverli']```|
+|Concatenación|```nombres + nombres```|```>['Juan', 'Pedro', 'Maria', 'Duverli', 'Bryan', 'Esniver', 'Usnavy', 'Dualinquer','Juan', 'Pedro', 'Maria', 'Duverli', 'Bryan', 'Esniver', 'Usnavy', 'Dualinquer']```|
+|Membrasía|```'Gerargo' in nombres```|```False```|
+||||
+
+
+### Función len() en una lista
 La función len() devuelve la longitud de la lista (su cantidad de elementos).
 
 ```python
-
 list1=["juan","pedro","cesar","augusto"]
 len(list1)
+>4
 ```
-## Concatenar listas
+### Concatenar listas
 
 Se concatenan las listas usando el símbolo +
 
@@ -32,7 +59,7 @@ print(concatenada_Nombres_Apellidos)
 ['Juan', 'Pedro', 'Maria', 'Duverli', 'Bryan', 'Esniver', 'Usnavy', 'Dualinquer', 'Birbiquí', 'Sampues', 'Chuchimí', 'Caderín', 'Pasto', 'Pernir', 'Adujú', 'Bermí']
 ```
 
-## Agregar elementos a una lista
+### Agregar elementos a una lista
 
 Se puede agregar un elemento nuevo a una lista con el símbolo + y agregando el nuevo elemneto en [ ] o con *.append* o con *.insert*. Este último comando permite insertar en cierta posición
 
@@ -70,16 +97,20 @@ clear
 
 ### Función *range()* :zap:
 
-La función *range()* permite medir varios parametros para por ejemplo imprimir varios elementos.
+La función *range()* permite generar listas numéricas. Este comando acepta hasta tres argumentos para generar diferentes listas.
 
+Cuando se usa un solo argumento, el comando *range()* genera un listado numérico desde el cero como primera posición de la lista, hasta el número con que se alimente el comando.
+Ej.:
 ```python
-    for i in range(5):
-        print(i, end=", ") # prints: 0, 1, 2, 3, 4, 
+range(9)
+>[0,1,2,3,4,5,6,7,8]
 ```
+Al usarse un segundo argumento, se puede modificar el límite menor de la lista numérica.
+Ej:
 
 ```python
-    for i in range(-1, 5):
-        print(i, end=", ")
+range[15, 20]
+>[15, 16, 17, 18, 19]
 ```
 
 # Estructuras cíclicas
@@ -125,7 +156,6 @@ Fin_Para
 Esta estructura se puede entender como: **Var* representa una variable que va a tomar valores iniciando en *inicio* y finalizando en *final* avanzando con un Paso de *Valor**.
 
 ```python
-
 nums = [4, 78, 9, 84]
 for n in nums:
     print(n)
