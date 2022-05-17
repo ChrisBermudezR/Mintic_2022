@@ -5,7 +5,7 @@
 Una Tupla es un tipo de dato en python que permite guardar o retener una colección de items. Se puede decir que una Tupla es un conjunto de objetos separados por una coma, muy parecidas a las listas, pero se usan paréntesis ( ) en lugar de corchetes [ ].
 
 ```python
-t="abc", 3, "poi"
+tuplas="abc", 3, "poi"
 print(tuplas)
 >("abc", 3, "poi")
 ```
