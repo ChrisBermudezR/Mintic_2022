@@ -1,5 +1,13 @@
+# Semana 02
 
-# Condicionales
+Temario
+- [Semana 02](#semana-02)
+  - [Condicionales](#condicionales)
+    - [Condicionales simples](#condicionales-simples)
+    - [Condicionales combinadas o en cascada](#condicionales-combinadas-o-en-cascada)
+    - [Condicionales anidadas](#condicionales-anidadas)
+    - [Condicionales en secuencia](#condicionales-en-secuencia)
+## Condicionales
 En programación los condicionales son estructuras de código que que permiten controlar el flujo de la ejecución de un programa. 
 
 En :snake: la estructura básica de un condicional es la siguiente:
@@ -10,7 +18,7 @@ En :snake: la estructura básica de un condicional es la siguiente:
 ```
 Este tipo de estructura nos permite arreglar el programa para que tome decisiones por nosotros, basados en los datos de entrada que proveemos y los condicionales que usamos.
 
-## Condicionales simples.
+### Condicionales simples
 
 ```python
 edad=int(input("Ingresa tu edad: "))
@@ -20,7 +28,7 @@ edad=int(input("Ingresa tu edad: "))
         else:
             print("Menor de edad")
 ```
-## Condicionales combinadas o en cascada.
+### Condicionales combinadas o en cascada
 
 ```python
 edad=int(input("Ingresa tu edad: "))
@@ -32,7 +40,7 @@ elif 18<= edad <= 60 :
 else:
     print("Adulto Mayor")
 ```
-## Condicionales anidadas.
+### Condicionales anidadas
 
 ```python
 
@@ -50,4 +58,4 @@ else:
     print("Está seguro que está vivo?")
 ```
 
-## Condicionales en secuencia.
+### Condicionales en secuencia
