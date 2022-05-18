@@ -127,18 +127,83 @@ j : bool = False
 p : bool = True
 ```
 ### Caracteres y cadenas de caracteres
-Un carácter es el elemento mínimo de información usado para representar,  controlar, transmitir y visualizar datos. Al conjunto de caracteres usados  con este fin se le llama
-Esquema de codificación. Los esquemas de  codificación en general usan un número de bits o bytes fijos. Por ahora solo consideraremos el ASCII. En :snake: son representados como
-cadenas de  caracteres de un sólo carácter. Más  adelante profundizaremos en ellas.
+Un carácter es el elemento mínimo de información usado para representar,  controlar, transmitir y visualizar datos. 
+
+Se codifican con una palabra ```str``` y se declara mediante la expresión ```x:str```.
+
+```python
+i: str = "r"
+j : str = "tonto"
+p : str = "Verdadero"
+```
+
 ## Operadores
-
+Existen diversos tipos de operadores en :snake: para llevar a cabo procedimientos tanto matemáticos como de lógica.
 ### Operadores ariméticos
+Los operadores aritméticos en :snake: son:
 
+|Operador|Operación|
+|:-:|:-:|
+|+|suma|
+|-|resta|
+|*|multiplicación|
+|/|división|
+|//|división entera|
+|%|residuo de división|
+|**|potencia|
 ### Operadores de asignación
+Para asignar valores a variables se pueden utilizar los siguientes
+operadores  infijos.
 
+Estos valores realizan la operación sobre el mismo objeto de la izquierda, por ejemplo:
+
+```python
+x += 2 #esto es igual que...
+x = x + 2 #esto!
+```
+
+|Operador|Operación|
+|:-:|:-:|
+|=|asignación|
+|+=|asignación suma|
+|-=|asignación resta|
+|*=|asignación multiplicación|
+|/=|asignación división|
+|//=|asignación división entera|
+|%=|asignación residuo de división|
 ### Operadores lógicos
+Los operadores lógicos permiten realizar secuencias de operaciones que tengan una lógica.
 
+|Operador|Operación|
+|:-:|:-:|
+|¬|not|
+|and|y|
+|or|ó|
 ### Operadores de igualdad y relacionales
 
+Los operadores igualdad y relacionales permiten realizar evaluar diferentes valores devolviendo datos booleanos.
+
+|Operador|Operación|
+|:-:|:-:|
+|==|igualdad|
+|!=|diferencia|
+|>|mayor que|
+|<|menor que|
+|>=|mayor o igual que|
+|<=|menor o igual que|
+
 ### Precedencia de los operadores
+ En :snake: como en otros lenguajes de programación, existe precedencia o gerarquía entre loss signos. por lo general la palabra pnemotécnica de **PEMDAS** nos ayudará a recordar esta precedencia. Esta parabra significa, Paréntesis, Exponencia, Multiplicación, División, Adición y Sustreacción. Sin embargo, hay jerarquía tambien con operadores de igualdad, booleanos y de asignación.
+
+|Operador|Prioridad|
+|:-:|:-:|
+|()|1|
+|¬ -(signo) +(signo) **|2|
+|* / // %|3|
+|+ - |4|
+|< > <= >=|5|
+|== !=|6|
+|and|7|
+|or|8|
+|= += -= *= /= //= %=|9|
 
