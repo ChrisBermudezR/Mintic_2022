@@ -9,7 +9,6 @@ Temario
             - [Concatenar listas](#concatenar-listas)
             - [Agregar elementos a una lista](#agregar-elementos-a-una-lista)
             - [Comandos para listas (Buscar)](#comandos-para-listas-buscar)
-            - [Función range() ⚡️](#función-range-zap)
         - [Estructuras cíclicas](#estructuras-cíclicas)
             - [Ciclo *while*](#ciclo-while)
             - [Ciclo *for*](#ciclo-for)
