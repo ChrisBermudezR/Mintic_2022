@@ -1,17 +1,18 @@
 # Semana 03
 
--[Semana 03](#semana-03)
-    -[Arreglos de datos en :snake:](#arreglos-de-datos-en-snake)
-        -[Listas](#listas)
-            -[Operaciones de secuenciación en las listas](#operaciones-de-secuenciación-en-las-listas)
-            -[Función len() en una lista](#función-len-en-una-lista)
-            -[Concatenar listas](#concatenar-listas)
-            -[Agregar elementos a una lista](#agregar-elementos-a-una-lista)
-            -[Comandos para listas (Buscar)](#comandos-para-listas-buscar)
-            -[Función range() ⚡️](#función-range-zap)
-        -[Estructuras cíclicas](#estructuras-cíclicas)
-            -[Ciclo *while*](#ciclo-while)
-            -[Ciclo *for*](#ciclo-for)
+Temario
+- [Semana 03](#semana-03)
+    - [Arreglos de datos en :snake:](#arreglos-de-datos-en-snake)
+        - [Listas](#listas)
+            - [Operaciones de secuenciación en las listas](#operaciones-de-secuenciación-en-las-listas)
+            - [Función len() en una lista](#función-len-en-una-lista)
+            - [Concatenar listas](#concatenar-listas)
+            - [Agregar elementos a una lista](#agregar-elementos-a-una-lista)
+            - [Comandos para listas (Buscar)](#comandos-para-listas-buscar)
+            - [Función range() ⚡️](#función-range-zap)
+        - [Estructuras cíclicas](#estructuras-cíclicas)
+            - [Ciclo *while*](#ciclo-while)
+            - [Ciclo *for*](#ciclo-for)
            
 
 
