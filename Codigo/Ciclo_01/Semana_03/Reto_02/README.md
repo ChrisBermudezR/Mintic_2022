@@ -1,4 +1,4 @@
-# Army Force Firestorm    :rage2:
+# Reto 02 -  Army Force Firestorm    :rage2:
 
 Army Force Firestorm es un videojuego, este  Incluye una modalidad denominada Pixel Gun Apocalypse, en la que los usuarios se asignan aleatoriamente a uno de dos equipos y estos deben combatir a todos los del otro equipo hasta que se termina el tiempo asignado. 
 
