@@ -1,6 +1,23 @@
-# Arreglos de datos en :snake:
+# Semana 03
 
-## Listas
+-[Semana 03](#semana-03)
+    -[Arreglos de datos en :snake:](#arreglos-de-datos-en-snake)
+        -[Listas](#listas)
+            -[Operaciones de secuenciación en las listas](#operaciones-de-secuenciación-en-las-listas)
+            -[Función len() en una lista](#función-len-en-una-lista)
+            -[Concatenar listas](#concatenar-listas)
+            -[Agregar elementos a una lista](#agregar-elementos-a-una-lista)
+            -[Comandos para listas (Buscar)](#comandos-para-listas-buscar)
+            -[Función range() ⚡️](#función-range-zap)
+        -[Estructuras cíclicas](#estructuras-cíclicas)
+            -[Ciclo *while*](#ciclo-while)
+            -[Ciclo *for*](#ciclo-for)
+           
+
+
+## Arreglos de datos en :snake:
+
+### Listas
 
 Una lista en Python es una estructura de datos formada por una secuencia ordenada de objetos. Los elementos de una lista pueden accederse mediante su índice, siendo 0 el índice del primer elemento. 
 
@@ -21,7 +38,7 @@ listaVacia=[]
 print(listaVacia)
 >[]
 ```
-### Operaciones de secuenciación en las listas.
+#### Operaciones de secuenciación en las listas.
 
 Las listas en :snake: son tipos de datos secuenciales, similares a las cadenas de texto y estas se puede gestionar a través de operadores de secuenciacón. 
 
@@ -34,10 +51,10 @@ Los operadores de secuenciación permiten conocer el orden, largo o el contenido
 |Segmentación|```nombres[1:3]```|```>['Pedro', 'Maria', 'Duverli']```|
 |Concatenación|```nombres + nombres```|```>['Juan', 'Pedro', 'Maria', 'Duverli', 'Bryan', 'Esniver', 'Usnavy', 'Dualinquer','Juan', 'Pedro', 'Maria', 'Duverli', 'Bryan', 'Esniver', 'Usnavy', 'Dualinquer']```|
 |Membrasía|```'Gerargo' in nombres```|```False```|
-||||
 
 
-### Función len() en una lista
+
+#### Función len() en una lista
 La función len() devuelve la longitud de la lista (su cantidad de elementos).
 
 ```python
@@ -45,7 +62,7 @@ list1=["juan","pedro","cesar","augusto"]
 len(list1)
 >4
 ```
-### Concatenar listas
+#### Concatenar listas
 
 Se concatenan las listas usando el símbolo +
 
@@ -59,7 +76,7 @@ print(concatenada_Nombres_Apellidos)
 ['Juan', 'Pedro', 'Maria', 'Duverli', 'Bryan', 'Esniver', 'Usnavy', 'Dualinquer', 'Birbiquí', 'Sampues', 'Chuchimí', 'Caderín', 'Pasto', 'Pernir', 'Adujú', 'Bermí']
 ```
 
-### Agregar elementos a una lista
+#### Agregar elementos a una lista
 
 Se puede agregar un elemento nuevo a una lista con el símbolo + y agregando el nuevo elemneto en [ ] o con *.append* o con *.insert*. Este último comando permite insertar en cierta posición
 
@@ -81,7 +98,7 @@ print(lista2)
 
 ```
 
-### Comandos para listas (Buscar)
+#### Comandos para listas (Buscar)
 
 append
 insert
@@ -95,7 +112,7 @@ index
 clear
 
 
-### Función *range()* :zap:
+#### Función *range()* :zap:
 
 La función *range()* permite generar listas numéricas. Este comando acepta hasta tres argumentos para generar diferentes listas.
 
@@ -113,7 +130,7 @@ range[15, 20]
 >[15, 16, 17, 18, 19]
 ```
 
-# Estructuras cíclicas
+## Estructuras cíclicas
 
 En esta semana se trataron las estructuras cíclicas.
 
@@ -121,7 +138,7 @@ Las estructuras cíclicas nos permiten repetir o iterar un conjunto de instrucci
 
 Existen dos tipos de ciclos en python:
 
-## Ciclo *while*
+### Ciclo *while*
 
 * Ciclo *Mientras* que en lenguaje de Python se escribe *while*:
 
@@ -143,7 +160,7 @@ while i < 10
     i = i + 1
 ```
 
-## Ciclo *for*
+### Ciclo *for*
 
 * Ciclo *Para* que en lenguaje de Python se escribe *for*:
 
