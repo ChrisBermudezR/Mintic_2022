@@ -10,7 +10,6 @@ Temario
   - [Introducción a lass herramientas web para desarrollo: COLAB y replit](#introducción-a-lass-herramientas-web-para-desarrollo-colab-y-replit)
     - [Colab (https://colab.research.google.com/)](#colab-httpscolabresearchgooglecom)
     - [replit (https://replit.com)](#replit-httpsreplitcom)
-  - [Mi primer programa en :snake:](#mi-primer-programa-en-snake)
 
 ## Problemas
 Se tiene un problema cuando se desea encontrar uno o varios objetos desconocidos (ya sean estos números, símbolos, diagramas, figuras u otras  
@@ -78,9 +77,3 @@ Según [Wikipedia](https://es.wikipedia.org/wiki/Replit), *"Replit (rep-lit) ant
 
 Se puede acceder directamente a la plataforma de :snake: en replit a través del enlace: [https://replit.com/languages/python3](https://replit.com/languages/python3).
 
-## Mi primer programa en :snake:
-
-```python
-from IPython.display import YouTubeVideo
-YouTubeVideo("6iolB0Qly84)
-```

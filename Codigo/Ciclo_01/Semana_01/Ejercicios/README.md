@@ -50,6 +50,8 @@ print ( "letra generada: " + sujeto_seleccionado + " "
 + adv_seleccionado + " " + compl1s_seleccionado + " "
 + compl2s_seleccionado) # se imprime la canción
 ```
+
+![](Ejercicio01.gif)
 # Ejercicio 2
 
 Elabore un generador de discurso político al azar, basado en fráses de cajón.
