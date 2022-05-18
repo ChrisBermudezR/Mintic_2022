@@ -41,6 +41,8 @@ while i < 10
     i = i + 1
 ```
 
+
+
 ### Ciclo *for*
 
 * Ciclo *Para* que en lenguaje de Python se escribe *for*:
@@ -58,3 +60,4 @@ nums = [4, 78, 9, 84]
 for n in nums:
     print(n)
 ``` 
+## Cadenas y estructuras de control
