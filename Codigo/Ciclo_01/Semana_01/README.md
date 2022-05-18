@@ -7,9 +7,21 @@ Temario
     - [¿Qué es un algoritmo?](#qué-es-un-algoritmo)
   - [Metodología para solución de problemas por medio de algoritmos](#metodología-para-solución-de-problemas-por-medio-de-algoritmos)
   - [Programación en :snake:](#programación-en-snake)
-  - [Introducción a lass herramientas web para desarrollo: COLAB y replit](#introducción-a-lass-herramientas-web-para-desarrollo-colab-y-replit)
+  - [Introducción a las herramientas web para desarrollo: COLAB y replit](#introducción-a-las-herramientas-web-para-desarrollo-colab-y-replit)
     - [Colab (https://colab.research.google.com/)](#colab-httpscolabresearchgooglecom)
     - [replit (https://replit.com)](#replit-httpsreplitcom)
+  - [Tipos de datos en :snake:](#tipos-de-datos-en-snake)
+    - [Numéricos: Enteros y reales](#numéricos-enteros-y-reales)
+      - [Enteros](#enteros)
+      - [Reales](#reales)
+    - [Booleanos](#booleanos)
+    - [Caracteres y cadenas de caracteres](#caracteres-y-cadenas-de-caracteres)
+  - [Operadores](#operadores)
+    - [Operadores ariméticos](#operadores-ariméticos)
+    - [Operadores de asignación](#operadores-de-asignación)
+    - [Operadores lógicos](#operadores-lógicos)
+    - [Operadores de igualdad y relacionales](#operadores-de-igualdad-y-relacionales)
+    - [Precedencia de los operadores](#precedencia-de-los-operadores)
 
 ## Problemas
 Se tiene un problema cuando se desea encontrar uno o varios objetos desconocidos (ya sean estos números, símbolos, diagramas, figuras u otras  
@@ -62,18 +74,71 @@ Se trata de un lenguaje de programación multiparadigma, ya que soporta parcialm
 
 </center>
 
-## Introducción a lass herramientas web para desarrollo: COLAB y replit
+## Introducción a las herramientas web para desarrollo: COLAB y replit
 
 ### Colab ([https://colab.research.google.com/](https://colab.research.google.com/))
 
-Según *Google*, *"Colaboratory, o "Colab" para abreviar, es un producto de Google Research. Permite a cualquier usuario escribir y ejecutar código arbitrario de Python en el navegador. Es especialmente adecuado para tareas de aprendizaje automático, análisis de datos y educación. Desde un punto de vista más técnico, Colab es un servicio de cuaderno alojado de Jupyter que no requiere configuración y que ofrece acceso sin coste adicional a recursos informáticos, como GPUs."* 
+Según *Google*, *"Colaboratory, o "Colab" para abreviar, es un producto de Google Research. Permite a cualquier usuario escribir y ejecutar código arbitrario de :snake: en el navegador. Es especialmente adecuado para tareas de aprendizaje automático, análisis de datos y educación. Desde un punto de vista más técnico, Colab es un servicio de cuaderno alojado de Jupyter que no requiere configuración y que ofrece acceso sin coste adicional a recursos informáticos, como GPUs."* 
 
 ### replit ([https://replit.com](https://replit.com))
 
 Según [Wikipedia](https://es.wikipedia.org/wiki/Replit), *"Replit (rep-lit) anteriormente repl.it es un IDE online (Entorno de desarrollo integrado) Su nombre proviene del acrónimo REPL, que significa "bucle de lectura-evaluación-impresión". Amjad Masad, Faris Masad y Haya Odeh cofundaron la empresa en 2016."*
 
-*"Sus principales caracteristicas son que Replit permite a los usuarios escribir código y crear aplicaciones y sitios web mediante un navegador.  El sitio también tiene varias funciones de colaboración, incluida la capacidad de edición multiusuario en tiempo real con una fuente de chat en vivo. Admite lenguajes de programación y marcado como Java , Python y HTML , lo que permite a los usuarios crear aplicaciones y sitios web, pero puede ejecutar cualquier lenguaje existente usando Nix . El sitio está integrado con GitHub , una plataforma de alojamiento de código, que proporciona una forma de importar y ejecutar proyectos desde GitHub.  Los usuarios también pueden importar proyectos desde Glitch , que brinda un servicio similar a Replit."* 
+*"Sus principales caracteristicas son que Replit permite a los usuarios escribir código y crear aplicaciones y sitios web mediante un navegador.  El sitio también tiene varias funciones de colaboración, incluida la capacidad de edición multiusuario en tiempo real con una fuente de chat en vivo. Admite lenguajes de programación y marcado como Java , :snake: y HTML , lo que permite a los usuarios crear aplicaciones y sitios web, pero puede ejecutar cualquier lenguaje existente usando Nix . El sitio está integrado con GitHub , una plataforma de alojamiento de código, que proporciona una forma de importar y ejecutar proyectos desde GitHub.  Los usuarios también pueden importar proyectos desde Glitch , que brinda un servicio similar a Replit."* 
 
 
 Se puede acceder directamente a la plataforma de :snake: en replit a través del enlace: [https://replit.com/languages/python3](https://replit.com/languages/python3).
+
+## Tipos de datos en :snake:
+Existen varios tipos de datos que se pueden manejar en :snake: y estos son:
+### Numéricos: Enteros y reales
+
+#### Enteros
+Se codifican con una palabra ```int``` y se declara mediante la expresión ```x:int```
+
+Ejemplo:
+aquí se asignan valores a los objetos ```i, j, p``` y se declaran que son enteros con los valores asignados
+
+```python
+i: int = 0
+j : int = 1
+p : int = -10
+```
+#### Reales
+Se codifican con una palabra ```float``` y se declara mediante la expresión ```x:float```
+
+Ejemplo:
+aquí se asignan valores a los objetos ```i, j, p``` y se declaran que son reales con los valores asignados
+
+```python
+i: float = 2.0
+j : float = 1.6
+p : float = -1.960
+```
+### Booleanos
+Se codifican con una palabra ```bool``` y se declara mediante la expresión ```x:bool```, lo que sirve para declarar si dicha variable es ```True``` (Verdadero) ó ```False``` (Falso).
+
+Ejemplo:
+aquí se asignan valores a los objetos ```i, j, p``` y se declaran que son reales con los valores asignados
+
+```python
+i: bool = True
+j : bool = False
+p : bool = True
+```
+### Caracteres y cadenas de caracteres
+Un carácter es el elemento mínimo de información usado para representar,  controlar, transmitir y visualizar datos. Al conjunto de caracteres usados  con este fin se le llama
+Esquema de codificación. Los esquemas de  codificación en general usan un número de bits o bytes fijos. Por ahora solo consideraremos el ASCII. En :snake: son representados como
+cadenas de  caracteres de un sólo carácter. Más  adelante profundizaremos en ellas.
+## Operadores
+
+### Operadores ariméticos
+
+### Operadores de asignación
+
+### Operadores lógicos
+
+### Operadores de igualdad y relacionales
+
+### Precedencia de los operadores
 
