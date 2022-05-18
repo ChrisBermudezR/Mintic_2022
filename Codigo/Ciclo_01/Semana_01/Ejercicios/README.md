@@ -96,3 +96,5 @@ votos_sel= random.choice(votos)
 #discurso
 print(lambetazo_sel +  " " + marranos_sel  + " " + condicion_sel  + " " +  compromiso_sel  + " " + ilusion_sel + " " +  promesa_sel + " " +  beneficio_pop_sel  + " " + votos_sel)
 ```
+
+![](Ejercicio02.gif)
