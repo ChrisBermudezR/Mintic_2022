@@ -8,7 +8,7 @@ Temario
             - [Función len() en una lista](#función-len-en-una-lista)
             - [Concatenar listas](#concatenar-listas)
             - [Agregar elementos a una lista](#agregar-elementos-a-una-lista)
-            - [Comandos para listas (Buscar)](#comandos-para-listas-buscar)
+            - [Comandos para gestionar listas](#comandos-para-listas-buscar)
         - [Estructuras cíclicas](#estructuras-cíclicas)
             - [Ciclo *while*](#ciclo-while)
             - [Ciclo *for*](#ciclo-for)
@@ -98,7 +98,7 @@ print(lista2)
 
 ```
 
-#### Comandos para listas (Buscar)
+#### Comandos para gestionar listas
 
 **.append()** - Comando para adicionar elementos a una lista.
 ```python
