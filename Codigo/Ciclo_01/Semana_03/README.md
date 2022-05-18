@@ -101,30 +101,103 @@ print(lista2)
 
 #### Comandos para listas (Buscar)
 
-append
-insert
-remove
-reverse
-sort
-pop
-extend
-count
-index
-clear
+**.append()** - Comando para adicionar elementos a una lista.
+```python
+mixed = [1, 2]
+mixed.append(3)
+mixed
+>[1, 2, 3]
 
+mixed.append("four")
+mixed
+>[1, 2, 3, 'four']
+```
+**.insert()** - Comando para insertar un elemento a una lista en un indice específico.
+```python
+vocales = ['a', 'e', 'i', 'u']
+vocales.insert(3, 'o')
+print('List:', vocales)
+>['a', 'e', 'i', 'o', 'u']
+```
+**.remove()** - Comando que remueve el primer elemento coincidente (el cuál pasa como un argumento) de una lista.
 
-#### Función *range()* :zap:
+```python
+prime_numbers = [2, 3, 5, 7, 9, 11]
+prime_numbers.remove(9)
+print('Updated List: ', prime_numbers)
+>[2, 3, 5, 7, 11]
+```
+**.reverse()** - Comando para reversar el orden de la lista.
 
-La función *range()* permite generar listas numéricas. Este comando acepta hasta tres argumentos para generar diferentes listas.
+```python
+prime_numbers = [2, 3, 5, 7]
+prime_numbers.reverse()
+print('Reversed List:', prime_numbers)
+>[7, 5, 3, 2]
+```
+**.sort()** - Comando para organizar los elementos de una lista de manera ascendente 
 
-Cuando se usa un solo argumento, el comando *range()* genera un listado numérico desde el cero como primera posición de la lista, hasta el número con que se alimente el comando.
-Ej.:
+```python
+prime_numbers = [11, 3, 7, 5, 2]
+prime_numbers.sort()
+print(prime_numbers)
+> [2, 3, 5, 7, 11]
+```
+**.pop()** - Comando para remover un elemento de una lista indicando el índice de posición.
+
+```python
+prime_numbers = [2, 3, 5, 7]
+removed_element = prime_numbers.pop(2)
+print('Removed Element:', removed_element)
+print('Updated List:', prime_numbers)
+> [2, 3, 7]
+
+```
+**.extend()** - Comando para adicionar todos los elementos de un arreglo de datos iterable (listas, tuplas, cadenas de caractéres, etc) al final de la lista.
+
+```python
+prime_numbers = [2, 3, 5]
+numbers = [1, 4]
+numbers.extend(prime_numbers)
+print('List after extend():', numbers)
+> [1, 4, 2, 3, 5]
+```
+**.count()** - Comando para contar elementos de una lista que se repiten, especificando el elemento deseado.
+
+```python
+numbers = [2, 3, 5, 2, 11, 2, 7]
+count = numbers.count(2)
+print('Count of 2:', count)
+>Count of 2: 3
+
+```
+**.index()** - Comando para informar la posición en el índice de la lista de un elemento dado.
+
+```python
+animals = ['cat', 'dog', 'rabbit', 'horse']
+index = animals.index('dog')
+print(index)
+>1
+```
+
+**.clear()** - Comando para borrar todos los elementos de una lista.
+
+```python
+prime_numbers = [2, 3, 5, 7, 9, 11]
+prime_numbers.clear()
+print('List after clear():', prime_numbers)
+List after clear(): []
+```
+
+**.range()**  - Comando que permite generar listas numéricas. Este comando acepta hasta tres argumentos para generar diferentes listas.
+
+Cuando se usa un solo argumento, el comando *.range()* genera un listado numérico desde el cero como primera posición de la lista, hasta el número con que se alimente el comando.
+
 ```python
 range(9)
 >[0,1,2,3,4,5,6,7,8]
 ```
 Al usarse un segundo argumento, se puede modificar el límite menor de la lista numérica.
-Ej:
 
 ```python
 range[15, 20]
