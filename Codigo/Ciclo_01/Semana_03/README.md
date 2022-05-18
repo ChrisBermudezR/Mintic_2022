@@ -3,8 +3,9 @@
 Temario
 - [Semana 03](#semana-03)
     - [Estructuras cíclicas](#estructuras-cíclicas)
-            - [Ciclo *while*](#ciclo-while)
-            - [Ciclo *for*](#ciclo-for)
+        - [Ciclo *while*](#ciclo-while)
+        - [Ciclo *for*](#ciclo-for)
+    - [Cadenas y estructuras de control](#cadenas-y-estructuras-de-control)
            
 
 
