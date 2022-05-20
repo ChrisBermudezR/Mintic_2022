@@ -87,7 +87,7 @@ dict_items([('Valle', 'Cali'), ('Antioquia', 'Medellín'), ('Nariño', 'Pasto')]
 ```
 #### Consulta de claves en diccionarios.
 
-El comando ```in``` nos permite saber si cierto valor está dentro de un diccionario como una clave con al estructura ```clave in nombre_Diccionario```
+El comando ```in``` nos permite saber si cierto valor está dentro de un diccionario como una clave con la estructura ```clave in nombre_Diccionario```
 
 ```python
 ciudades= {"Valle":"Cali", "Antioquia":"Medellín", "Nariño":"Pasto"}
