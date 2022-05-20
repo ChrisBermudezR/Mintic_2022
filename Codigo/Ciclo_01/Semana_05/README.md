@@ -8,6 +8,7 @@ Temario
       - [Consulta de un valor en diccionarios](#consulta-de-un-valor-en-diccionarios)
       - [Agregar valores a un diccionario](#agregar-valores-a-un-diccionario)
       - [Consultas de las claves, valores y clave:valor](#consultas-de-las-claves-valores-y-clavevalor)
+      - [Consulta de claves en diccionarios.](#consulta-de-claves-en-diccionarios)
   - [Manejo de archivos](#manejo-de-archivos)
 ## Arreglos de datos en :snake:.
 
@@ -84,9 +85,36 @@ ciudades= {"Valle":"Cali", "Antioquia":"Medellín", "Nariño":"Pasto"}
 print(ciudades.items())
 dict_items([('Valle', 'Cali'), ('Antioquia', 'Medellín'), ('Nariño', 'Pasto')])
 ```
+#### Consulta de claves en diccionarios.
 
+El comando ```in``` nos permite saber si cierto valor está dentro de un diccionario como una clave con al estructura ```clave in nombre_Diccionario```
 
+```python
+ciudades= {"Valle":"Cali", "Antioquia":"Medellín", "Nariño":"Pasto"}
+print("Madrid" in ciudades)
+>False
+```
+En los **condicionales** el comando ```in```funciona de la siguiente manera:
 
+```python
+ciudades= {"Valle":"Cali", "Antioquia":"Medellín", "Nariño":"Pasto"}
+  if "Nariño" in ciudades:
+    print("Verdad")
+  else:
+    print("Mentira")
+>Verdad
+```
+
+En los **ciclos** el comando ```in``` funciona de la siguiente manera:
+
+```python
+ciudades= {"Valle":"Cali", "Antioquia":"Medellín", "Nariño":"Pasto"}
+for i in ciudades:
+    print(i)
+>Valle
+Antioquia
+Nariño
+```
 ## Manejo de archivos
 
 Un **archivo** es una unidad lógica de almacenamiento de datos en dispositivos externos (no memoria principal). Se dice *unidad lógica* porque todos los *bytes* almacenados en un archivo se ven como una sola unidad que tiene un inicio y un fin, sin importar lo que esos bytes estén presentando.
