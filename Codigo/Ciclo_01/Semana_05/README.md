@@ -23,6 +23,7 @@ entre llaves { }.
 ```python
 ciudades= {"Valle":"Cali", "Antioquia":"Medellín", "Nariño":"Pasto"}
 ```
+
 En este ejemplo las claves son los departamentos y el valor son las ciudades de Colombia.
 
 
