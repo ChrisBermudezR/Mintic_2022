@@ -3,7 +3,9 @@
 Temario
 - [# Semana 06](#semana-06)
     - [Librerías](#semana-06)
-
+        - [NumPy](#numpyhttpsnumpyorg)
+        - [MatplotLib](#matplotlibhttpsmatplotliborg)
+        - [Pandas](#pandashttpspandaspydataorg)
 ## Librerías en :snake:
 
 Es conjunto de funcionalidades que permiten al usuario  llevar a cabo nuevas tareas que antes no se podían realizar.
@@ -30,4 +32,4 @@ coordenadas x-y, theta-r, coordenadas polares, x-y-z, etc.
 <img src="pandas_white.svg" width =35%,></img>
 
 Permite manipular datos de alto nivel. Es una librería fácil de usar para
-análisis y manipulació de datos. Está construida sobre Numpy.
+análisis y manipulación de datos. Está construida sobre Numpy.
