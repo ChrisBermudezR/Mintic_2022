@@ -9,11 +9,14 @@ Temario
 Es conjunto de funcionalidades que permiten al usuario  llevar a cabo nuevas tareas que antes no se podían realizar.
 
 # ![NumPy](https://numpy.org/)
-![](numpy.svg)
+![scale 50%](numpy.svg)
 
 Es una de las librerías más conocidas para realizar computación científica en Python. Provee una librería de alto rendimiento para la manipulación de arreglos en varias dimensiones, además de ofrecer herramientas sofísticadas para manipularlos.
 
 
-# MatplotLib![](matplotlib.svg)
+# ![MatplotLib](https://matplotlib.org/)
 
-# Pandas![](pandas_white.svg)
+<img src="matplotlib.svg" width =50%,></img>
+
+# ![Pandas](https://pandas.pydata.org/)
+![:scale 50%](pandas_white.svg)
