@@ -13,7 +13,14 @@ Es conjunto de funcionalidades que permiten al usuario  llevar a cabo nuevas tar
 # ![NumPy](https://numpy.org/)
 <img src="numpy.svg" width =20%,></img>
 
-Es una de las librerías más conocidas para realizar computación científica en Python. Provee una librería de alto rendimiento para la manipulación de arreglos en varias dimensiones, además de ofrecer herramientas sofísticadas para manipularlos.
+*NumPy* es una composición de *Numerical Python*, esta librería es una de las más importantes de para computación numérica. Muchos de los paquetes que proveen alguna funcionalidad científica usan los *arrays* de *NumPy* como base para el intercambio de datos.
+
+La forrma de importar la librería es la siguiente:
+
+```python
+import numpy as np #Aquí se importa la librería dentro del nombre "np"
+```
+
 
 
 # ![MatplotLib](https://matplotlib.org/)
