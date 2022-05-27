@@ -9,7 +9,7 @@ Temario
 Es conjunto de funcionalidades que permiten al usuario  llevar a cabo nuevas tareas que antes no se podían realizar.
 
 # ![NumPy](https://numpy.org/)
-![scale 50%](numpy.svg)
+<img src="numpy.svg" width =50%,></img>
 
 Es una de las librerías más conocidas para realizar computación científica en Python. Provee una librería de alto rendimiento para la manipulación de arreglos en varias dimensiones, además de ofrecer herramientas sofísticadas para manipularlos.
 
@@ -18,5 +18,16 @@ Es una de las librerías más conocidas para realizar computación científica e
 
 <img src="matplotlib.svg" width =50%,></img>
 
+Matplotlib es una librería para crear visualizaciones estáticas o
+animadas en Python.
+
+La forma más simple de crear una figura con ejes es usar el módulo pyplot.
+
+Es posible graficar en un área con uno o más ejes (en términos de
+coordenadas x-y, theta-r, coordenadas polares, x-y-z, etc.
+
 # ![Pandas](https://pandas.pydata.org/)
-![:scale 50%](pandas_white.svg)
+<img src="pandas_white.svg" width =50%,></img>
+
+Permite manipular datos de alto nivel. Es una librería fácil de usar para
+análisis y manipulació de datos. Está construida sobre Numpy.
