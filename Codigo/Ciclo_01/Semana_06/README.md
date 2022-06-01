@@ -40,3 +40,5 @@ coordenadas x-y, theta-r, coordenadas polares, x-y-z, etc.
 
 Permite manipular datos de alto nivel. Es una librería fácil de usar para
 análisis y manipulación de datos. Está construida sobre Numpy.
+
+Esta librería permite analizar datos que se guardan en archivos.
