@@ -94,9 +94,9 @@ def tipodefigurita(a,b):
 #def mefaltandeltipodefigurita(a,b,c):
 
 
-#def notengo():
+#def notengo(a,b):
 
 
-#def puedocambiar():
+#def puedocambiar(a,b):
 
 ```
