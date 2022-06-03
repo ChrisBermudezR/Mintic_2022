@@ -100,3 +100,5 @@ def tipodefigurita(a,b):
 #def puedocambiar(a,b):
 
 ```
+
+Validación en replit:[https://replit.com/@chrisbermudezr/Reto05#main.py](https://replit.com/@chrisbermudezr/Reto05#main.py)
