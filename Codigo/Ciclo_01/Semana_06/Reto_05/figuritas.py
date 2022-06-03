@@ -1,12 +1,12 @@
-def tipodefigurita():
-      for i in lista:
-  if i not in vacia:
-   vacia.append(i)
+def tipodefigurita(a,b):
+    for i in a:
+      if i not in b:
+       b.append(i)
 
-def mefaltandeltipodefigurita():
-
-
-def notengo():
+#def mefaltandeltipodefigurita():
 
 
-def puedocambiar():
+#def notengo():
+
+
+#def puedocambiar():
