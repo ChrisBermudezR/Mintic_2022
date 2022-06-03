@@ -3,7 +3,7 @@ def tipodefigurita(a,b):
       if i not in b:
        b.append(i)
 
-#def mefaltandeltipodefigurita():
+#def mefaltandeltipodefigurita(a,b,c):
 
 
 #def notengo():

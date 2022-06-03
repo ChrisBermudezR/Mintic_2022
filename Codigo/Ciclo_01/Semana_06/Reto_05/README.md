@@ -81,3 +81,22 @@ Porque a la otra persona solo le interesan dos figuritas que tienen ellos: ```[4
 **Entrada:**
 
 Este programa no requiere entrada. Ni generará salida. Se requiere que el estudiante genere un archivo con el nombre figuritas.py y que se respeten los nombres de las funciones dadas y sus parámetros.
+
+Respuesta al reto
+
+```python
+#Avances hasta 2022-06-02
+def tipodefigurita(a,b):
+    for i in a:
+      if i not in b:
+       b.append(i)
+
+#def mefaltandeltipodefigurita(a,b,c):
+
+
+#def notengo():
+
+
+#def puedocambiar():
+
+```
