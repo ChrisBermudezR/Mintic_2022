@@ -85,19 +85,47 @@ Este programa no requiere entrada. Ni generará salida. Se requiere que el estud
 Respuesta al reto
 
 ```python
-#Avances hasta 2022-06-02
-def tipodefigurita(a,b):
-    for i in a:
-      if i not in b:
-       b.append(i)
 
-#def mefaltandeltipodefigurita(a,b,c):
+def tipodefigurita(a):
+  vacia=[]
+  for i in a:
+    if i not in vacia:
+      vacia.append(i)
+  return vacia
 
+def mefaltandeltipodefigurita(a,b,c):
+  vacia=[]
+  for i in a:
+    if b[i] == c:
+      vacia.append(i)
+  return vacia
+  
+def notengo(a,b):
+  vacia=[]
+  for i in a:
+    if (i not in b) and (i not in vacia):
+      vacia.append(i)
+  return vacia
 
-#def notengo(a,b):
+def puedocambiar(a,b):
+  cuenta=0
+  vacia=[]
+  for i in a:
+    if (i in b) and (i not in vacia):
+      cuenta += 1
+  return cuenta
+  
+"""" 
+esta alternativa me cuenta cuantas no tiene
 
-
-#def puedocambiar(a,b):
+def cuantasfaltan(a,b):
+  cuenta=0
+  cuenta =len(notengo(a,b))
+  cuenta_Op =len(notengo(a,b))
+  if cuenta > cuenta_Op:
+    cuenta = cuenta_Op
+  return cuenta
+"""
 
 ```
 
