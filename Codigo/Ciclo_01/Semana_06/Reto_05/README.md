@@ -107,13 +107,14 @@ def notengo(a,b):
       vacia.append(i)
   return vacia
 
-def puedocambiar(a,b):
-  cuenta=0
-  vacia=[]
-  for i in a:
-    if (i in b) and (i not in vacia):
-      cuenta += 1
-  return cuenta
+def puedocambiar(a, b):
+  vacia = []
+  lista1 = notengo(a, b)
+  lista2 = notengo(b, a)
+  if len(lista1) < len(lista2):
+    return len(lista1)
+  else:
+    return len(lista2)
   
 """" 
 esta alternativa me cuenta cuantas no tiene
