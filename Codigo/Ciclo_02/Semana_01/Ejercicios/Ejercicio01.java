@@ -1,4 +1,13 @@
-/* 
+/*
+ * En un estacionamiento cobran $ 1.500 por 
+ * hora o fracción. Diseñe un algoritmo que 
+ * determine cuanto debe pagar un cliente por 
+ * el estacionamiento de su vehículo, conociendo 
+ * el tiempo de estacionamiento en horas y minutos.
+ * 
+ */
+
+ /* 
 Clase del 2022-06-22
 Programción en Java
 
@@ -29,30 +38,5 @@ public class Aplicacion_01 {
             System.out.print("El precio total es $"+resultado1);
         } 
         
-        
-        /*Scanner obj=new Scanner(System.in);
-        int edad;
-        System.out.print("Digite su edad ");
-        edad=obj.nextInt();
-        if(edad<=18){
-            System.out.print("Usted es menor de edad ");
-        }
-        else{
-            System.out.print("Usted es mayor de edad ");
-        }
-        
-        /*
-    Scanner captura=new Scanner(System.in);
-    
-    int num1,num2,resultado;
-    System.out.print("Digite un número:");
-    num1=captura.nextInt();
-    System.out.print("Digite otro número:");
-    num2=captura.nextInt();
-    resultado=num1 + num2;
-    System.out.println("El resultado de la suma es "+resultado);
-*/
-        
     }
-    
 }
