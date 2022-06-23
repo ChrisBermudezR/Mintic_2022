@@ -10,13 +10,14 @@ public class Aplicacion_01 {
   
     public static void main(String[] args) {
     Scanner captura=new Scanner(System.in);
+
     int num1,num2,resultado;
     System.out.print("Digite un número:");
     num1=captura.nextInt();
     System.out.print("Digite un número:");
     num2=captura.nextInt();
     resultado=num1 + num2;
-    System.out.println("El resultado de la suma es "+resultado);
+    System.out.printIn("El resultado de la suma es "+resultado);
 
         
     }
