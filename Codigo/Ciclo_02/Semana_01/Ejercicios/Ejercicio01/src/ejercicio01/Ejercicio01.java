@@ -1,24 +1,19 @@
 /*
- * En un estacionamiento cobran $ 1.500 por 
- * hora o fracción. Diseñe un algoritmo que 
- * determine cuanto debe pagar un cliente por 
- * el estacionamiento de su vehículo, conociendo 
- * el tiempo de estacionamiento en horas y minutos.
- * 
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-
-/* 
-Clase del 2022-06-22
-Programción en Java
-
-*/ 
-package aplicacion_01;
+package ejercicio01;
 import java.util.Scanner;
-public class Aplicacion_01 {
+/**
+ *
+ * @author Christian Bermúdez R
+ */
+public class Ejercicio01 {
 
-  
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
-     
         Scanner obj=new Scanner(System.in);
         float horas;
         float minutos;
@@ -38,6 +33,6 @@ public class Aplicacion_01 {
             resultado1 =horas*1500;
             System.out.print("El precio total es $"+resultado1);
         } 
-        
     }
+    
 }
