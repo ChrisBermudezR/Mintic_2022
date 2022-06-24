@@ -35,11 +35,11 @@ El entorno en tiempo de ejecución de Java (*Java Runtime Environment*) es un co
 
 - Ingrese al siguiente [LINK](https://www.oracle.com/technetwork/es/java/javase/downloads/jdk-netbeans-jsp-3413139-esa.html) y descargue los archivos.
 
-![Guarde el Archivo](/Imagenes/Fig01.png)
-![Guarde el Archivo](/Imagenes/Fig02.png)
-![Guarde el Archivo](/Imagenes/Fig03.png)
-![Guarde el Archivo](/Imagenes/Fig04.png)
-![Guarde el Archivo](/Imagenes/Fig05.png)
+![Guarde el Archivo](./Imagenes/Fig01.png)
+![Guarde el Archivo](./Imagenes/Fig02.png)
+![Guarde el Archivo](./Imagenes/Fig03.png)
+![Guarde el Archivo](./Imagenes/Fig04.png)
+![Guarde el Archivo](./Imagenes/Fig05.png)
 ## El IDE NetBeans de ☕
 NetBeans es un IDE libre (entorno de desarrollo integrado -*Integrated Development Environment* (IDE)), diseñado principalmente para programar en el lenguaje de programación Java.
 
@@ -47,8 +47,8 @@ NetBeans es un IDE libre (entorno de desarrollo integrado -*Integrated Developme
 Con el archivo descargado desde [Oracle](https://www.oracle.com/tools/technologies/netbeans-ide.html)
 
 
-![Guarde el Archivo](/Imagenes/Fig06.png)
-![Guarde el Archivo](/Imagenes/Fig07.png)
+![Guarde el Archivo](./Imagenes/Fig06.png)
+![Guarde el Archivo](./Imagenes/Fig07.png)
 
 ### Prueba del IDE NetBeans junto con Java
 
