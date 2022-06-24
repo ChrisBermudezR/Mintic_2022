@@ -12,6 +12,11 @@ Clase del 2022-06-22
 Programción en Java
 
 */ 
+/* 
+Clase del 2022-06-22
+Programción en Java
+
+*/ 
 package aplicacion_01;
 import java.util.Scanner;
 public class Aplicacion_01 {
@@ -28,12 +33,13 @@ public class Aplicacion_01 {
         horas=obj.nextInt();
         System.out.print("Cuantos minutos se demoró el cliente? ");
         minutos=obj.nextFloat()/60;
-        if(horas>=1 && minutos>0){
+        if (horas==0){
+            System.out.print("El precio total es $1500");
+        } else if(horas>=1 && minutos>0){
                 resultado1 =horas*1500;
                 resultado2= resultado1+1500;
                 System.out.print("El precio total es $"+resultado2);
-            }
-        else{
+        } else {
             resultado1 =horas*1500;
             System.out.print("El precio total es $"+resultado1);
         } 
