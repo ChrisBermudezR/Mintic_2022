@@ -7,11 +7,6 @@
  * 
  */
 
- /* 
-Clase del 2022-06-22
-Programción en Java
-
-*/ 
 /* 
 Clase del 2022-06-22
 Programción en Java
