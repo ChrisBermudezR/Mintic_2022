@@ -10,6 +10,7 @@ Temario
   - [El IDE NetBeans de ☕](#el-ide-netbeans-de-)
       - [Instalación de NetBeans](#instalación-de-netbeans)
     - [Prueba del IDE NetBeans junto con Java](#prueba-del-ide-netbeans-junto-con-java)
+  - [Identificadores y variables](#identificadores-y-variables)
 
 
 # El lenguaje de programación de Java ☕
@@ -44,7 +45,7 @@ El entorno en tiempo de ejecución de Java (*Java Runtime Environment*) es un co
 NetBeans es un IDE libre (entorno de desarrollo integrado -*Integrated Development Environment* (IDE)), diseñado principalmente para programar en el lenguaje de programación Java.
 
 #### Instalación de NetBeans
-Con el archivo descargado desde [Oracle](https://www.oracle.com/tools/technologies/netbeans-ide.html)
+Con el archivo descargado desde [Oracle](https://www.oracle.com/tools/technologies/netbeans-ide.html) dar click sobre este e instalarlo.
 
 
 ![Guarde el Archivo](./Imagenes/Fig06.png)
@@ -52,4 +53,57 @@ Con el archivo descargado desde [Oracle](https://www.oracle.com/tools/technologi
 
 ### Prueba del IDE NetBeans junto con Java
 
-Al abrir la aplicación.
+Al abrir la aplicación se debe crear un nuevo proyecto.
+
+![Guarde el Archivo](./Imagenes/Fig08.png)
+![Guarde el Archivo](./Imagenes/Fig09.png)
+![Guarde el Archivo](./Imagenes/Fig10.png)
+
+Una vez se crea el nuevo proyecto que en este caso es un paquete de aplicación, se debe tener en cuenta la estructura del código de Java.
+
+**package** define el nombre del paquete.
+
+**public** class nos define el nombre del archivo .java
+
+**public static void main** **(String[ ] args){ }** Esta es la función principal
+
+![Guarde el Archivo](./Imagenes/Fig11.png)
+
+El siguiente código es un ejemplo para ejecutar la función de imprimir la palabra "**Hola Mundo**"
+
+```java
+package hola.mundo;
+
+  public class HolaMundo {
+
+    public static void main (String [ ] args){
+      System.out.printIn("hola mundo");
+  }
+}
+```
+## Identificadores y variables
+
+Existen dos tipos de lenguajes y estos dependen del **tipado** de las variables, el cual es el procedimiento por medio del cuál estas asumen su valor en la memoria.
+
+- **Tipado estático**:Donde cada variable y expresión deben definirse de forma explícita, es decir, en el momento en que se declara una variable, se debe indicar a que tipo de dato pertenece (*e.g.* C, C++, Java)
+
+```java
+int a = 1;
+String b = "Hola";
+bool c = true;
+
+func saludar() string{
+
+}
+```
+
+- **Tipado dinámico**: En estos lenguajes las variables pueden recibir diferentes tipos de datos a lo largo del tiempo y no es necesario especificar un tipo de dato para las variables (*e.g.* Ruby, R, :snake:).
+
+```python
+a = 1
+b = "Hola"
+c = true
+
+def saludar():
+```
+
