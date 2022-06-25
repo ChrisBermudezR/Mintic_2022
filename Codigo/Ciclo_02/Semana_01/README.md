@@ -11,6 +11,7 @@ Temario
       - [Instalación de NetBeans](#instalación-de-netbeans)
     - [Prueba del IDE NetBeans junto con Java](#prueba-del-ide-netbeans-junto-con-java)
   - [Identificadores y variables](#identificadores-y-variables)
+    - [Identificadores](#identificadores)
 
 
 # El lenguaje de programación de Java ☕
@@ -107,3 +108,24 @@ c = true
 def saludar():
 ```
 
+### Identificadores
+Un identificador es una secuencia de símbolos que se utilizan como nombres de variables, funciones, arreglos, clases y otras estructuras de los lenguajes de programación. 
+
+En Java se escriben como secuencias de caracteres alfanuméricos del alfabeto inglés. Aunque en Java no hay límite en la longitud del identificador, es aconsejable que tenga de 4 a 15 caracteres. Estos **NO** deben ser iguales a palabras reservadas (*e.g.* *while*), empezar con números (*e.g.* 1salon) o que tengan caractéres especiales (*e.g.* Salón).
+
+```java
+//Mal ejemplo de un identificador
+1er_mes
+Primer nombre
+p@dre
+Día
+Velocidad-máxima
+true
+Var#1
+@var
+
+//Buen ejemplo de un identificador
+E$pacio
+False
+Variable
+```
