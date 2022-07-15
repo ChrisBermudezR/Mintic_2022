@@ -12,6 +12,10 @@ Temario
     - [Prueba del IDE NetBeans junto con Java](#prueba-del-ide-netbeans-junto-con-java)
   - [Identificadores y variables](#identificadores-y-variables)
     - [Identificadores](#identificadores)
+  - [Tipos de Variables](#tipos-de-variables)
+  - [Declarar Variables](#declarar-variables)
+    - [Variable finales o variables definitivas](#variable-finales-o-variables-definitivas)
+  - [Tipos de datos no primitivos de Java](#tipos-de-datos-no-primitivos-de-java)
 
 
 # El lenguaje de programación de Java ☕
@@ -129,3 +133,47 @@ E$pacio
 False
 Variable
 ```
+
+## Tipos de Variables
+
+Las variables son contenedores para almacenar valores de datos.
+
+En Java, existen diferentes tipos de variables, por ejemplo:
+
+- **String**- almacena texto, como "Hola". Los valores de cadena están entre comillas dobles
+- **int**- almacena enteros (números enteros), sin decimales, como 123 o -123
+- **float**- almacena números de coma flotante, con decimales, como 19.99 o -19.99
+- **char**- almacena caracteres individuales, como 'a' o 'B'. Los valores de char están entre comillas simples
+- **boolean**- almacena valores con dos estados: verdadero o falso
+
+## Declarar Variables
+
+La sintaxis de creación de una variable es sencilla, se declara el tipo de variable, el nombre de la variable y el valor de la variable, todo esto, y como cada línea en Java, debe finalizar con un **;**.
+
+```java
+tipo NombreVariable = valor;
+```
+
+### Variable finales o variables definitivas
+
+Este tipo de variables se declaran como variables *final* lo cual le indica al lenguaje que esta variable no podrá ser reemplazada.
+
+```java
+final int myNum = 25;
+myNum = 6768;  // Esto generará el siguiente error: "cannot assign a value to a final variable"
+```
+## Tipos de datos no primitivos de Java
+
+Tipos de datos no primitivos
+
+Los tipos de datos no primitivos se denominan tipos de referencia porque se refieren a objetos.
+
+La principal diferencia entre los tipos de datos primitivos y no primitivos son:
+
+- Los tipos primitivos están predefinidos (ya definidos) en Java. Los tipos no primitivos son creados por el programador y no están definidos por Java (excepto para String).
+- Los tipos no primitivos se pueden usar para llamar a métodos para realizar ciertas operaciones, mientras que los tipos primitivos no pueden.
+-  Un tipo primitivo siempre tiene un valor, mientras que los tipos no primitivos pueden ser null.
+-  Un tipo primitivo comienza con una letra minúscula, mientras que los tipos no primitivos comienzan con una letra mayúscula.
+- El tamaño de un tipo primitivo depende del tipo de datos, mientras que los tipos no primitivos tienen todos el mismo tamaño.
+
+Ejemplos de tipos no primitivos son Strings , Arrays , Classes, Interface , etc. Aprenderá más sobre estos en un capítulo posterior.
