@@ -26,3 +26,35 @@ Ejemplo
 ||73 150 44|
 ||tres|
 
+
+```java
+import java.util.Scanner;
+public class Reto01 {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("Ingrese la distancia a la casa de Goku");
+        int distanciaCasaGoku = teclado.nextInt();
+
+        int distanciaProximaEsfera = 2 * distanciaCasaGoku + 4;
+        int tiempoDuracionViaje = (distanciaCasaGoku + distanciaProximaEsfera) / 5;
+
+        System.out.println(distanciaCasaGoku + " " + distanciaProximaEsfera + " " + tiempoDuracionViaje);
+
+        if (tiempoDuracionViaje <= 20)
+        {
+            System.out.println("uno");
+        } else if (tiempoDuracionViaje <= 30)
+        {
+            System.out.println("dos");
+        } else if (tiempoDuracionViaje <= 50)
+        {
+            System.out.println("tres");
+        } else
+        {
+            System.out.println("cuatro");
+        }
+    }
+}
+
+```
