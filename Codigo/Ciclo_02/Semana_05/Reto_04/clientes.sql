@@ -3,7 +3,7 @@ create table clientes(
 alias char(20) primary key,
 nombre char(20),
 apellido varchar(20),
-celular char(20)
+celular int
 );
 
 insert into clientes values('lucky','Pedro','Perez','31855555');
