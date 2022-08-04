@@ -1,4 +1,5 @@
-package reto_5;
+package reto.reto05;
+
 import java.util.Scanner;
 import java.sql.Connection;
 import java.sql.DriverManager;
