@@ -3,8 +3,7 @@ create table bicicletas(
 	id int primary key,
     fabricante char(20),
     precioUnitario int,
-    ano int,
-    foreign key (fabricante) references fabricantes (fabricantes)
+    ano int
     );
 
 insert into bicicletas values (1001,'Cannondale', 1200000, 2020);
