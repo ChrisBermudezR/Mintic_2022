@@ -20,3 +20,4 @@ class Persona:
             return "es mayor de edad"
         else:
             return "Es menor de edad"
+          
